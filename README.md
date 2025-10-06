@@ -54,7 +54,6 @@ A modern web-based photo frame controller for Waveshare 5.65" 7-color e-paper di
 - **Touch-Friendly** - Works seamlessly on mobile devices
 
 ### Connectivity
-- **WiFi Station Mode** - Connect to your existing network
 - **Access Point Fallback** - Automatic AP mode if no network configured
 - **QR Code Display** - Scan to connect instantly
 - **Web Configuration** - Save WiFi credentials through browser
@@ -125,11 +124,8 @@ Install the following libraries through Arduino IDE Library Manager:
 ### First Time Setup
 
 1. **Power On** - ESP32 boots and displays welcome screen with QR code
-2. **Connect to WiFi** - Two options:
-   - **Option A:** Scan QR code on display
-   - **Option B:** Connect to `E-Paper WiFi` (password: `epaper2024`)
-3. **Open Web Interface** - Navigate to displayed IP address
-4. **Configure WiFi** (optional) - Visit `/config` to save your network credentials
+2. **Connect to WiFi** - Connect to `E-Paper WiFi` (password: `epaper2025`)
+3. **Open Web Interface** - Scan QR code on display
 
 ### Uploading Images
 
@@ -143,10 +139,6 @@ Install the following libraries through Arduino IDE Library Manager:
    - Use "Fit" to auto-scale, "Center" to center image
 4. **Choose Algorithm** - Preview all conversion methods and select preferred one
 5. **Upload to Display** - Click "Upload to Display" and wait for refresh
-
-### Subsequent Uses
-
-After initial WiFi configuration, the frame automatically connects to your network on boot. Simply open the web interface at the saved IP address.
 
 ## 📁 Project Structure
 
@@ -193,7 +185,6 @@ Resolution (modify in `E-Paper_Photo_Frame.ino`):
 ### WiFi Connection Failed
 - Check SSID and password
 - Verify signal strength
-- Try AP mode by removing saved credentials
 
 ### Web Interface Not Loading
 - Confirm correct IP address
