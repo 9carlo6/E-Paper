@@ -6,6 +6,28 @@ A modern web-based photo frame controller for Waveshare 5.65" 7-color e-paper di
 ![Platform](https://img.shields.io/badge/platform-ESP32-green)
 ![License](https://img.shields.io/badge/license-MIT-orange)
 
+## 📸 Screenshots
+
+### Display Boot Screen
+![Boot Screen](images/boot_screen.jpg)
+*Initial screen showing QR code for easy connection*
+
+### Web Interface
+![Web Interface](images/web_interface.jpg)
+*Clean, modern upload interface*
+
+### Interactive Crop Editor
+![Crop Editor](images/crop_editor.jpg)
+*Drag, zoom, rotate - perfect positioning every time*
+
+### Algorithm Selection
+![Algorithm Selection](images/algorithm_selection.jpg)
+*Compare 5 different conversion methods side-by-side*
+
+### Final Result on Display
+![Display Result](images/display_result.jpg)
+*Your photo beautifully rendered in 7 colors*
+
 ## ✨ Features
 
 ### Web Interface
@@ -93,7 +115,7 @@ Install the following libraries through Arduino IDE Library Manager:
 1. **Power On** - ESP32 boots and displays welcome screen with QR code
 2. **Connect to WiFi** - Two options:
    - **Option A:** Scan QR code on display
-   - **Option B:** Connect to `E-Paper WiFi` (password: `epaper2025`)
+   - **Option B:** Connect to `E-Paper WiFi` (password: `epaper2024`)
 3. **Open Web Interface** - Navigate to displayed IP address
 4. **Configure WiFi** (optional) - Visit `/config` to save your network credentials
 
@@ -130,7 +152,7 @@ E-Paper/
 Default AP credentials (modify in `E-Paper_Photo_Frame.ino`):
 ```cpp
 #define AP_SSID "E-Paper WiFi"
-#define AP_PASS "epaper2024"
+#define AP_PASS "epaper2025"
 ```
 
 ### Display Settings
