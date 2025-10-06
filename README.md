@@ -76,10 +76,12 @@ A modern web-based photo frame controller for Waveshare 5.65" 7-color e-paper di
 
 | ESP32 Pin | Display Pin | Function |
 |-----------|-------------|----------|
-| GPIO 5    | CS          | Chip Select |
-| GPIO 17   | DC          | Data/Command |
-| GPIO 16   | RST         | Reset |
 | GPIO 4    | BUSY        | Busy Signal |
+| GPIO 5    | CS          | Chip Select |
+| GPIO 16   | RST         | Reset |
+| GPIO 17   | DC          | Data/Command |
+| GPIO 18   | CLK         | SPI Clock (SCK) |
+| GPIO 23   | DIN         | SPI MOSI (Data in) |
 | 3.3V      | VCC         | Power |
 | GND       | GND         | Ground |
 
