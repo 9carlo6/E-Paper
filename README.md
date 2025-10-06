@@ -8,25 +8,35 @@ A modern web-based photo frame controller for Waveshare 5.65" 7-color e-paper di
 
 ## 📸 Screenshots
 
-### Display Boot Screen
-![Boot Screen](images/boot_screen.jpg)
-*Initial screen showing QR code for easy connection*
+<h3 align="center">Display Boot Screen</h3>
+<p align="center">
+     <img src="images/boot_screen.jpg" width="400" alt="Boot Screen">
+</p>
+<p align="center"><em>Initial screen showing QR code for easy connection</em></p>
 
-### Web Interface
-![Web Interface](images/web_interface.jpg)
-*Clean, modern upload interface*
+<h3 align="center">Web Interface</h3>
+<p align="center">
+     <img src="images/web_interface.jpg" width="400" alt="Boot Screen">
+</p>
+<p align="center"><em>Upload interface</em></p>
 
-### Interactive Crop Editor
-![Crop Editor](images/crop_editor.jpg)
-*Drag, zoom, rotate - perfect positioning every time*
+<h3 align="center">Interactive Crop Editor</h3>
+<p align="center">
+     <img src="images/crop_editor.jpg" width="400" alt="Boot Screen">
+</p>
+<p align="center"><em>Drag, zoom, rotate</em></p>
 
-### Algorithm Selection
-![Algorithm Selection](images/algorithm_selection.jpg)
-*Compare 5 different conversion methods side-by-side*
+<h3 align="center">Algorithm Selection</h3>
+<p align="center">
+     <img src="images/algorithm_selection.jpg" width="400" alt="Boot Screen">
+</p>
+<p align="center"><em>Compare 5 different conversion methods side-by-side</em></p>
 
-### Final Result on Display
-![Display Result](images/display_result.jpg)
-*Your photo beautifully rendered in 7 colors*
+<h3 align="center">Final Result on Display</h3>
+<p align="center">
+     <img src="images/display_result.jpg" width="400" alt="Boot Screen">
+</p>
+<p align="center"><em>Your photo rendered</em></p>
 
 ## ✨ Features
 
